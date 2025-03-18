@@ -34,7 +34,7 @@ const Hero = () => {
         <div className="flex flex-col items-center text-center max-w-3xl mx-auto">
           <div className="animate-on-scroll opacity-0 animate-delay-100 mb-8">
             <div className="relative">
-              <Avatar className="w-60 h-60 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-accent/20 shadow-xl">
+              <Avatar className="w-60 h-60 md:w-72 md:h-72 overflow-hidden border-4 border-accent/20 shadow-xl">
                 <AvatarImage 
                   src="/IMG-20240831-WA0008.jpg" 
                   alt="Abhinav G" 
