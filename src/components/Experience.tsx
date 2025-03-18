@@ -8,7 +8,7 @@ const experiences = [
     period: "Dec 2023 - Jan 2025",
     location: "Chennai, India",
     details: "Full-time",
-    description: "Developed and maintained web applications using React, Node.js, and MongoDB."
+    description: "Developed and maintained web applications using modern technologies."
   }
 ];
 
@@ -17,19 +17,19 @@ const education = [
     institution: "SRMIST KTR",
     degree: "B.Tech - Computer Science",
     period: "Sep 2022 - Present",
-    grade: "7.62"
+    grade: "7.62 CGPA"
   },
   {
     institution: "DAV School",
     degree: "12th - CBSE",
     period: "Apr 2021 - Jun 2022",
-    grade: "420/500"
+    grade: "434/500"
   },
   {
     institution: "DAV School",
     degree: "10th - CBSE",
     period: "Apr 2019 - Mar 2020",
-    grade: "433/500"
+    grade: "434/500"
   }
 ];
 

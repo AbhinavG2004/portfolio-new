@@ -27,10 +27,10 @@ const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20" id="home">
       <div
-        className="container mx-auto px-6 py-12 md:py-24 flex flex-col items-start"
+        className="container mx-auto px-6 py-12 md:py-24 flex flex-col md:flex-row items-center gap-8"
         ref={containerRef}
       >
-        <div className="space-y-6 max-w-3xl">
+        <div className="order-2 md:order-1 space-y-6 max-w-2xl">
           <div className="inline-block overflow-hidden">
             <span className="section-subtitle animate-on-scroll opacity-0">
               Tech Enthusiast & Developer
@@ -45,7 +45,7 @@ const Hero = () => {
           
           <div className="inline-block overflow-hidden">
             <p className="text-xl md:text-2xl animate-on-scroll opacity-0 animate-delay-200 text-muted-foreground">
-              A tech enthusiast with a passion for innovation. As the developer behind real solutions that revolutionize workflows, I bring efficiency and effectiveness to the world of animals.
+              A tech enthusiast driven by innovation. As the creator of Wolf, I have developed a cutting-edge software solution that transforms workflows.
             </p>
           </div>
           
@@ -57,6 +57,19 @@ const Hero = () => {
               Learn more
               <ArrowDown size={16} />
             </a>
+          </div>
+        </div>
+
+        <div className="order-1 md:order-2 animate-on-scroll opacity-0 animate-delay-200">
+          <div className="relative">
+            <div className="w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-accent/20 shadow-xl">
+              <img 
+                src="/lovable-uploads/185af8ff-99f7-47a6-a01f-db2c2cb68baf.png" 
+                alt="Abhinav G" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="absolute -inset-0.5 rounded-full bg-gradient-to-br from-accent via-purple-500 to-pink-500 opacity-30 blur-md -z-10"></div>
           </div>
         </div>
       </div>

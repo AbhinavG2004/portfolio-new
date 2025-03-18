@@ -52,7 +52,7 @@ const About = () => {
         <div className="space-y-10">
           <div className="overflow-hidden max-w-3xl mx-auto">
             <p className="text-xl animate-on-scroll opacity-0">
-              I am Abhinav G, a tech enthusiast with a passion for innovation. As the developer behind real solutions that revolutionize workflows, I bring efficiency and effectiveness to the world of animals.
+              I am Abhinav G, a tech enthusiast driven by innovation. As the creator of Wolf, I have developed a cutting-edge software solution that transforms workflows. Designed to enhance efficiency and precision, it plays a vital role in optimizing processes in the field of animals.
             </p>
           </div>
           
@@ -78,9 +78,9 @@ const About = () => {
                 <div className="p-3 rounded-lg bg-accent/10 text-accent group-hover:bg-accent group-hover:text-accent-foreground transition-colors">
                   <Sparkles size={24} />
                 </div>
-                <h3 className="font-bold text-xl">Creative Approach</h3>
+                <h3 className="font-bold text-xl">Machine Learning</h3>
               </div>
-              <p className="text-muted-foreground">Combining technical expertise with creativity to solve complex problems in elegant ways.</p>
+              <p className="text-muted-foreground">Implementing advanced ML and NLP techniques to build intelligent systems that can recognize patterns and make predictions.</p>
             </div>
             
             <div className="bg-card/50 backdrop-blur-sm rounded-xl p-8 shadow-lg border border-accent/10 animate-on-scroll opacity-0 animate-delay-400 hover:border-accent/30 transition-all duration-300 group">
@@ -88,9 +88,9 @@ const About = () => {
                 <div className="p-3 rounded-lg bg-accent/10 text-accent group-hover:bg-accent group-hover:text-accent-foreground transition-colors">
                   <Code size={24} />
                 </div>
-                <h3 className="font-bold text-xl">Technical Expertise</h3>
+                <h3 className="font-bold text-xl">Full Stack Development</h3>
               </div>
-              <p className="text-muted-foreground">Mastering modern technologies and frameworks to build robust, scalable applications.</p>
+              <p className="text-muted-foreground">Building end-to-end web applications with modern technologies like Java, SpringBoot, and JavaScript frameworks.</p>
             </div>
             
             <div className="bg-card/50 backdrop-blur-sm rounded-xl p-8 shadow-lg border border-accent/10 animate-on-scroll opacity-0 animate-delay-500 hover:border-accent/30 transition-all duration-300 group">
@@ -98,9 +98,9 @@ const About = () => {
                 <div className="p-3 rounded-lg bg-accent/10 text-accent group-hover:bg-accent group-hover:text-accent-foreground transition-colors">
                   <Rocket size={24} />
                 </div>
-                <h3 className="font-bold text-xl">Fast Delivery</h3>
+                <h3 className="font-bold text-xl">Cloud Technologies</h3>
               </div>
-              <p className="text-muted-foreground">Turning ideas into reality with efficiency and speed without compromising on quality.</p>
+              <p className="text-muted-foreground">Leveraging AWS and other cloud platforms to build scalable, reliable applications with global reach.</p>
             </div>
           </div>
         </div>

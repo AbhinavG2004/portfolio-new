@@ -15,14 +15,21 @@ const skillCategories = [
     skills: ["Git", "Docker", "AWS", "MongoDB", "PostgreSQL", "Firebase", "RESTful APIs"]
   },
   {
-    category: "Soft Skills",
-    skills: ["Problem Solving", "Team Collaboration", "Project Management", "Communication", "Critical Thinking"]
+    category: "ML/AI",
+    skills: ["Machine Learning", "Deep Learning", "NLP", "Computer Vision", "Scikit-learn"]
   }
 ];
 
 const languages = [
   { language: "English", proficiency: "Professional Working Proficiency" },
   { language: "Tamil", proficiency: "Native Proficiency" }
+];
+
+const certifications = [
+  { name: "AWS Cloud Practitioner Solutions 2023 Certified Foundations Associate", date: "May 2023" },
+  { name: "Nvidia Getting Started with Deep Learning", date: "Sep 2023" },
+  { name: "Cisco Networking Basics", date: "Jun 2023" },
+  { name: "Coursera IoT Cloud", date: "Mar 2023" }
 ];
 
 const Skills = () => {
@@ -67,7 +74,7 @@ const Skills = () => {
           </div>
           <div className="inline-block overflow-hidden">
             <h2 className="section-title animate-on-scroll opacity-0">
-              Skills & Languages
+              Skills & Certifications
             </h2>
           </div>
         </div>
@@ -117,6 +124,24 @@ const Skills = () => {
             </div>
 
             <div className="animate-on-scroll opacity-0" style={{ animationDelay: "300ms" }}>
+              <h3 className="text-xl font-bold mb-4">Certifications</h3>
+              <div className="space-y-3">
+                {certifications.map((cert, index) => (
+                  <div 
+                    key={index}
+                    className="px-4 py-3 bg-secondary rounded-lg hover:bg-secondary/70 transition-colors animate-on-scroll opacity-0"
+                    style={{ animationDelay: `${(index * 100) + 400}ms` }}
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className="font-medium">{cert.name}</span>
+                      <span className="text-sm text-muted-foreground">{cert.date}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="animate-on-scroll opacity-0" style={{ animationDelay: "700ms" }}>
               <h3 className="text-xl font-bold mb-4">Links</h3>
               <div className="space-y-3">
                 <a 

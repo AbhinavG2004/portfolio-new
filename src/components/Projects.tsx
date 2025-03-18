@@ -5,17 +5,17 @@ import { ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     title: "Online Book Store Management",
-    tech: "SRM - Java, HTML/CSS, SpringBoot",
+    tech: "Java, HTML/CSS, SpringBoot",
     period: "Aug 2023 - Dec 2023",
-    description: "Full stack web development project for managing an online bookstore with user authentication, shopping cart, and admin dashboard.",
+    description: "Full stack web application built with Spring Boot, Maven, HTML/CSS, and Java. Provides users with the ability to view available books, search products, and add items to the store.",
     link: "#",
     github: "#"
   },
   {
     title: "Voice Emotion Detection",
-    tech: "Python - Machine Learning",
+    tech: "Python, Machine Learning",
     period: "Jul 2023 - Nov 2023",
-    description: "Built a machine learning model to detect emotions from voice recordings using Python and various ML libraries.",
+    description: "This project aims to recognize emotions in speech using machine learning techniques. The model uses MFCC, Chroma, and Mel spectrograms to extract audio features from voice speech files.",
     link: "#",
     github: "#"
   },
@@ -23,7 +23,7 @@ const projects = [
     title: "Fake News Detection",
     tech: "Python, ML, NLP",
     period: "Jan 2023 - Apr 2023",
-    description: "Machine learning and web development project that can identify fake news articles using NLP techniques.",
+    description: "Machine learning model trained to determine whether a news article is genuine or fabricated. Uses natural language processing techniques for text classification.",
     link: "#",
     github: "#"
   }
