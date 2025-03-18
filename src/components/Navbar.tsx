@@ -29,9 +29,9 @@ const Navbar = () => {
   ];
 
   const socialLinks = [
-    { icon: <Github size={20} />, href: "https://github.com/" },
-    { icon: <Linkedin size={20} />, href: "https://linkedin.com/in/" },
-    { icon: <Mail size={20} />, href: "mailto:abhinav@example.com" },
+    { icon: <Github size={20} />, href: "https://github.com/AbhinavG2004", label: "GitHub" },
+    { icon: <Linkedin size={20} />, href: "https://www.linkedin.com/in/abhinav-g-6a724b329", label: "LinkedIn" },
+    { icon: <Mail size={20} />, href: "mailto:ag7388@srmist.edu.in", label: "Email" },
   ];
 
   return (
@@ -66,7 +66,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-secondary transition-colors"
-              aria-label={`Social link ${index + 1}`}
+              aria-label={link.label}
             >
               {link.icon}
             </a>
@@ -111,7 +111,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full hover:bg-secondary transition-colors"
-                aria-label={`Social link ${index + 1}`}
+                aria-label={link.label}
               >
                 {link.icon}
               </a>

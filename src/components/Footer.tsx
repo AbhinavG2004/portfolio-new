@@ -20,7 +20,7 @@ const Footer = () => {
           
           <div className="flex items-center gap-6">
             <a 
-              href="https://github.com/" 
+              href="https://github.com/AbhinavG2004" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-accent transition-colors p-2 rounded-full hover:bg-accent/10"
@@ -29,7 +29,7 @@ const Footer = () => {
               <Github size={20} />
             </a>
             <a 
-              href="https://linkedin.com/in/" 
+              href="https://www.linkedin.com/in/abhinav-g-6a724b329" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-accent transition-colors p-2 rounded-full hover:bg-accent/10"
@@ -38,7 +38,7 @@ const Footer = () => {
               <Linkedin size={20} />
             </a>
             <a 
-              href="mailto:abhinav@example.com" 
+              href="mailto:ag7388@srmist.edu.in" 
               className="hover:text-accent transition-colors p-2 rounded-full hover:bg-accent/10"
               aria-label="Email"
             >
