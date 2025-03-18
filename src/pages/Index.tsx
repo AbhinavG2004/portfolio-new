@@ -11,6 +11,9 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   useEffect(() => {
+    // Apply dark mode class by default
+    document.documentElement.classList.add('dark');
+    
     const handleScroll = () => {
       const sections = document.querySelectorAll("section[id]");
       
@@ -41,7 +44,8 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-grid">
+      <div className="absolute inset-0 bg-gradient-to-br from-accent/5 via-background to-background -z-10"></div>
       <Navbar />
       <main className="flex-grow">
         <Hero />
