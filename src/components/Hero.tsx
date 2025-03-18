@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from "react";
 import { cn } from "@/lib/utils";
 import { ArrowDown } from "lucide-react";
@@ -37,7 +36,7 @@ const Hero = () => {
             <div className="relative">
               <Avatar className="w-60 h-60 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-accent/20 shadow-xl">
                 <AvatarImage 
-                  src="" 
+                  src="/IMG-20240831-WA0008.jpg" 
                   alt="Abhinav G" 
                   className="w-full h-full object-cover"
                 />
@@ -88,3 +87,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
