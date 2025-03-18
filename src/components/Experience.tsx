@@ -6,7 +6,7 @@ const experiences = [
     position: "Software Developer",
     period: "Dec 2023 - Jan 2025",
     location: "Chennai, India",
-    details: "Full-time",
+    details: "Intern",
     description: "Developed and maintained web applications using modern technologies."
   }
 ];
