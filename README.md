@@ -1,69 +1,65 @@
-# Welcome to your Lovable project
+# Abhinav G - Tech Enthusiast and Innovator
 
-## Project info
+## About Me
 
-**URL**: https://lovable.dev/projects/a24bfae2-93e9-484e-ae00-f45efd867a20
+I'm Abhinav, a passionate tech enthusiast driven by innovation. As the creator of Wall, I've developed a cutting-edge software solution that transforms workflows, enhancing efficiency and precision in animal-related processes.
 
-## How can I edit this code?
+## Education
 
-There are several ways of editing your application.
+- **B.Tech in Computer Science**
+  - SRMIST KTR, Chennai
+  - Sep 2022 - Present
+  - CGPA: 7.62
 
-**Use Lovable**
+- **12th Grade (CBSE)**
+  - DAV School, Chennai
+  - Apr 2021 - Jun 2022
+  - Score: 400/500
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a24bfae2-93e9-484e-ae00-f45efd867a20) and start prompting.
+- **10th Grade (CBSE)**
+  - DAV School, Chennai
+  - Apr 2019 - Mar 2020
+  - Score: 433/500
 
-Changes made via Lovable will be committed automatically to this repo.
+## Experience
 
-**Use your preferred IDE**
+**Software Developer Intern**
+- Kareinfinity, Chennai, India
+- Dec 2024 - Jan 2025
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Projects
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Online Book Store Management
+- **Tech Stack:** Java, HTML/CSS, Spring Boot
+- **Duration:** Aug 2024 - Dec 2024
+- A full-stack web application allowing users to view, manage, and add books to an online store.
 
-Follow these steps:
+### Voice Emotion Detection
+- **Tech Stack:** Python
+- **Duration:** Jul 2024 - Nov 2024
+- A machine learning project using the RAVDESS dataset to recognize emotions in speech.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Fake News Detection
+- **Tech Stack:** Flask, scikit-learn, NLTK, pandas, numpy
+- A web-based application for real-time fake news classification using machine learning.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Skills
 
-# Step 3: Install the necessary dependencies.
-npm i
+Python, Java, ReactJS, AngularJS, JavaScript, C, Spring Boot
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## Certifications
 
-**Edit a file directly in GitHub**
+- Oracle Cloud Infrastructure 2024 Certified Foundations Associate (Mar 2025)
+- Nvidia - Getting Started with Deep Learning (Sep 2024)
+- Cisco - Networking Basics (Oct 2024)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Languages
 
-**Use GitHub Codespaces**
+- English (Professional Working Proficiency)
+- Tamil (Native Proficiency)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Connect With Me
 
-## What technologies are used for this project?
+- [LinkedIn]()
+- [GitHub]()
 
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a24bfae2-93e9-484e-ae00-f45efd867a20) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
