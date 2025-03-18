@@ -46,7 +46,7 @@ const About = () => {
         <div className="space-y-10">
           <div className="overflow-hidden max-w-3xl mx-auto">
             <p className="text-xl animate-on-scroll opacity-0">
-              I am Abhinav G, a tech enthusiast driven by innovation. As the creator of Wolf, I have developed a cutting-edge software solution that transforms workflows. Designed to enhance efficiency and precision, it plays a vital role in optimizing processes in the field of animals.
+              I am Abhinav is a tech enthusiast with a passion for innovation and problem-solving. Skilled in web development and AI/ML integration,enjoys building practical solutions.I am always eager to learn and contribute to impactful projects.
             </p>
           </div>
           
