@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from "react";
 
 const experiences = [
@@ -68,11 +67,6 @@ const Experience = () => {
     >
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <div className="inline-block overflow-hidden">
-            <span className="section-subtitle animate-on-scroll opacity-0">
-              My Journey
-            </span>
-          </div>
           <div className="inline-block overflow-hidden">
             <h2 className="section-title animate-on-scroll opacity-0">
               Experience & Education

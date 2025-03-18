@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="text-center md:text-left">
             <h2 className="text-xl font-bold mb-2 neon-glow">Abhinav G</h2>
-            <p className="text-muted-foreground">Tech Enthusiast & Developer</p>
+            <p className="text-muted-foreground">Software Developer & AI Enthusiast</p>
           </div>
           
           <div className="flex items-center gap-6">
@@ -29,7 +29,7 @@ const Footer = () => {
               <Github size={20} />
             </a>
             <a 
-              href="https://www.linkedin.com/in/abhinav-g-6a724b329" 
+              href="https://www.linkedin.com/in/abhinav-g-6a724b329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-accent transition-colors p-2 rounded-full hover:bg-accent/10"

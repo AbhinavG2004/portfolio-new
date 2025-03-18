@@ -32,7 +32,7 @@ const Hero = () => {
         className="container mx-auto px-6 py-12 md:py-24 flex flex-col items-center gap-12"
         ref={containerRef}
       >
-        <div className="flex flex-col items-center text-center">
+        <div className="flex flex-col items-center text-center max-w-3xl mx-auto">
           <div className="animate-on-scroll opacity-0 animate-delay-100 mb-8">
             <div className="relative">
               <Avatar className="w-60 h-60 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-accent/20 shadow-xl">
@@ -49,12 +49,6 @@ const Hero = () => {
           
           <div className="space-y-6 max-w-2xl">
             <div className="inline-block overflow-hidden">
-              <span className="section-subtitle animate-on-scroll opacity-0">
-                Tech Enthusiast & Developer
-              </span>
-            </div>
-            
-            <div className="inline-block overflow-hidden">
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold animate-on-scroll opacity-0 animate-delay-100">
                 Abhinav G
               </h1>
@@ -62,7 +56,7 @@ const Hero = () => {
             
             <div className="inline-block overflow-hidden">
               <p className="text-xl md:text-2xl animate-on-scroll opacity-0 animate-delay-200 text-muted-foreground">
-                A tech enthusiast driven by innovation. As the creator of Wolf, I have developed a cutting-edge software solution that transforms workflows.
+                Software Developer & AI Enthusiast
               </p>
             </div>
             

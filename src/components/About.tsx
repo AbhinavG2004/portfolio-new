@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from "react";
 import { Zap, Sparkles, Code, Rocket } from "lucide-react";
 
@@ -37,11 +36,6 @@ const About = () => {
     >
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <div className="inline-block overflow-hidden">
-            <span className="section-subtitle animate-on-scroll opacity-0">
-              Who I Am
-            </span>
-          </div>
           <div className="inline-block overflow-hidden">
             <h2 className="section-title animate-on-scroll opacity-0 neon-glow">
               About Me

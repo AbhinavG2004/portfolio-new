@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from "react";
 
 const skillCategories = [
@@ -67,11 +66,6 @@ const Skills = () => {
     >
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <div className="inline-block overflow-hidden">
-            <span className="section-subtitle animate-on-scroll opacity-0">
-              What I Know
-            </span>
-          </div>
           <div className="inline-block overflow-hidden">
             <h2 className="section-title animate-on-scroll opacity-0">
               Skills & Certifications

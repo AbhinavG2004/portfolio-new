@@ -1,4 +1,3 @@
-
 import { useState, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -62,8 +61,8 @@ const Contact = () => {
     {
       icon: <Mail size={24} />,
       title: "Email",
-      value: "abhinav@example.com",
-      link: "mailto:abhinav@example.com"
+      value: "ag7388@srmist.edu.in",
+      link: "mailto:ag7388@srmist.edu.in"
     },
     {
       icon: <Phone size={24} />,
@@ -87,11 +86,6 @@ const Contact = () => {
     >
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <div className="inline-block overflow-hidden">
-            <span className="section-subtitle animate-on-scroll opacity-0">
-              Get In Touch
-            </span>
-          </div>
           <div className="inline-block overflow-hidden">
             <h2 className="section-title animate-on-scroll opacity-0">
               Contact Me
