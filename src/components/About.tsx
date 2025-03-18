@@ -46,7 +46,7 @@ const About = () => {
         <div className="space-y-10">
           <div className="overflow-hidden max-w-3xl mx-auto">
             <p className="text-xl animate-on-scroll opacity-0">
-              I am Abhinav is a tech enthusiast with a passion for innovation and problem-solving. Skilled in web development and AI/ML integration,enjoys building practical solutions.I am always eager to learn and contribute to impactful projects.
+              I am Abhinav,a tech enthusiast with a passion for innovation and problem-solving. Skilled in web development and AI/ML integration,enjoys building practical solutions.I am always eager to learn and contribute to impactful projects.
             </p>
           </div>
           
