@@ -22,13 +22,13 @@ const education = [
     institution: "DAV School",
     degree: "12th - CBSE",
     period: "Apr 2021 - Jun 2022",
-    grade: "434/500"
+    grade: "400/500"
   },
   {
     institution: "DAV School",
     degree: "10th - CBSE",
     period: "Apr 2019 - Mar 2020",
-    grade: "434/500"
+    grade: "433/500"
   }
 ];
 
